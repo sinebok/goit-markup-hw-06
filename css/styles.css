@@ -811,6 +811,10 @@ ul {
     color: rgba(117, 117, 117, 0.5);
 }
 
+.comment-area:focus {
+    border-color: var(--accent-color);
+}
+
 .policy-text {
     font-weight: normal;
     font-size: 14px;
