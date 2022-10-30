@@ -536,6 +536,7 @@ ul {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding-left: 16px;
+    color: var(--white-color);
 }
 
 .mail-input::placeholder {
@@ -569,6 +570,7 @@ ul {
     letter-spacing: 0.06em;
     font-size: 16px;
     line-height: 1.88;
+    font-weight: 700;
 }
 
 .add-icon {
@@ -750,10 +752,11 @@ ul {
     padding-bottom: 40px;
 }
 
-.form-label {
-    display: block;
+.field {
     margin-top: 10px;
-    margin-bottom: 4px;
+}
+
+.form-label {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 12px;
@@ -770,11 +773,13 @@ ul {
 }
 
 .form-input {
+    margin-top: 4px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 42px;
     padding-right: 12px;
     width: 100%;
+    height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
@@ -795,6 +800,7 @@ ul {
 }
 
 .comment-area {
+    margin-top: 4px;
     padding: 12px 16px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);

@@ -451,32 +451,40 @@
             </h2>
 
             <form name="contact-form" class="modal-form">
-                <label for="person-name" class="form-label">Ім'я</label>
-                <div class="form-control">
-                    <input type="text" name="person-name" id="person-name" class="form-input">
-                    <svg class="form-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#icon-person-black"></use>
-                    </svg>
+                <div class="field">
+                    <label for="person-name" class="form-label">Ім'я</label>
+                    <div class="form-control">
+                        <input type="text" name="person-name" id="person-name" class="form-input">
+                        <svg class="form-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <label for="person-tel" class="form-label">Телефон</label>
+                    <div class="form-control">
+                        <input type="tel" name="person-tel" id="person-tel" class="form-input">
+                        <svg class="form-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-phone-black"></use>
+                        </svg>
+                    </div>
                 </div>
 
-                <label for="person-tel" class="form-label">Телефон</label>
-                <div class="form-control">
-                    <input type="tel" name="person-tel" id="person-tel" class="form-input">
-                    <svg class="form-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#icon-phone-black"></use>
-                    </svg>
+                <div class="field">
+                    <label for="person-mail" class="form-label">Пошта</label>
+                    <div class="form-control">
+                        <input type="email" name="person-mail" id="person-mail" class="form-input">
+                        <svg class="form-icon" width="18px" height="18px">
+                            <use href="./images/icons.svg#icon-email-modal"></use>
+                        </svg>
+                    </div>
                 </div>
 
-                <label for="person-mail" class="form-label">Пошта</label>
-                <div class="form-control">
-                    <input type="email" name="person-mail" id="person-mail" class="form-input">
-                    <svg class="form-icon" width="18px" height="18px">
-                        <use href="./images/icons.svg#icon-email-modal"></use>
-                    </svg>
+                <div class="field">
+                    <label for="person-comment" class="form-label">Коментар</label>
+                    <textarea name="person-comment" id="person-comment" class="comment-area" placeholder="Введіть текст"></textarea>
                 </div>
-
-                <label for="person-comment" class="form-label">Коментар</label>
-                <textarea name="person-comment" id="person-comment" class="comment-area" placeholder="Введіть текст"></textarea>
 
                 <div class="form-field">
                     <input type="checkbox" name="input-check" id="input-check" class="policy-check visually-hidden">
